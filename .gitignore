@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+.env
+
+# Models (large files)
+*.pt
+*.whl
+
+# Database
+*.db
+*.sqlite3
+
+# Session cache
+session_logs.json
+
+# Generated reports
+frontend_ui/reports/*.pdf
+
+# Alert images
+backend_api/static/alerts/*
+backend_api/static/snapshots/*
+!backend_api/static/alerts/.gitkeep
+!backend_api/static/snapshots/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
