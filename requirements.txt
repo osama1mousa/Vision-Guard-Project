@@ -1,0 +1,27 @@
+# ============================================
+# VisionGuard — Project Dependencies
+# ============================================
+
+# AI / Machine Learning
+ultralytics
+torch
+torchvision
+numpy
+
+# Computer Vision
+opencv-python
+face_recognition
+dlib
+
+# Video Streaming
+pyzmq
+
+# Backend API
+fastapi
+uvicorn
+sqlalchemy
+python-multipart
+requests
+
+# Frontend Dashboard
+PyQt6
